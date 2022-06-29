@@ -11,33 +11,97 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <section id="landing_section">
-      <div>
-        <!-- nav bar -->
-        <div></div>
-        <!-- search and filter -->
-        <div>
-          <input type="text">
-          <!-- filter -->
-          <div></div>
+      <header id="header" class="fixed-top d-flex align-items-center">
+        <ul
+          class="nav justify-content-around bg-dark mt-4 navbar"
+          style="width: 100vw"
+        >
+          <li id="logo">On X</li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Cellphones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Computers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Sound</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Others</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Dropdowns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contact</a>
+          </li>
+          <li>
+            <button class="btn btn-dark rounded-pill border">My On X</button>
+          </li>
+        </ul>
+      </header>
+      <div class="container">
+        <form>
+          <input type="text" placeholder="What are you looking for?" /><br />
+          <button
+            id="
+          main_button"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+
+        <div class="drops">
+          <div class="drop drop-1"></div>
+          <div class="drop drop-2"></div>
+          <div class="drop drop-3"></div>
+          <div class="drop drop-4"></div>
+          <div class="drop drop-5"></div>
         </div>
-        <!-- categories -->
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      </div>
+    </section>
+    <section id="featured_section">
+      <div class="grid">
+        <div class="col"><img src="./Images/492y6ea_1_552c.webp" alt="" /></div>
+        <div class="col"><img src="./Images/75x90j_a3d2.jpg" alt="" /></div>
+        <div class="col">
+          <img src="./Images/feature_01_c_9375.webp" alt="" />
+        </div>
+        <div class="col">
+          <img
+            src="./Images/iphone_13_pro_gold_pure_back_iphone_13_pro_gold_pure__1tb_ecommerce_5f3e.webp"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <img src="./Images/iphone_13_pro_max_alpine_green_836c.webp" alt="" />
+        </div>
+        <div class="col">
+          <img
+            src="./Images/macbook_pro_14-in_space_gray_pure_front_screen__usen.webp"
+            alt=""
+          />
         </div>
       </div>
     </section>
 
-    <section id="featured_section"></section>
     <section id="search_by_category_section"></section>
     <section id="all_section"></section>
     <section id="footer_section"></section>
