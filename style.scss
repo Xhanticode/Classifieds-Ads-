@@ -106,7 +106,7 @@ form {
       text-shadow: none;
     }
   }
-  
+
   input {
     background: transparent;
     width: 200px;
@@ -215,4 +215,23 @@ button:focus {
 #featured_section {
   height: 100vh;
   background-color: black;
+}
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
